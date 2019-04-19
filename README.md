@@ -20,7 +20,7 @@ dub build --compiler=ldc2
 ```
 
 
-## Deploying to AWS Lambda via [serverless](https://serverless.com/)
+## Deploying to AWS Lambda using [serverless](https://serverless.com/)
 
 1. Setup AWS credentials for serverless as described in the
    [corrsponding section in the serverless documentation].

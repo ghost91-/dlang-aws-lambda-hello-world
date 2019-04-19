@@ -1,5 +1,5 @@
 
-service: dlang-hello-world
+service: dlang-aws-lambda-hello-world
 
 provider:
   name: aws

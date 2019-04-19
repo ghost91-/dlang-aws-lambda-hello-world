@@ -1,4 +1,4 @@
-name "dlang-hello-world"
+name "dlang-aws-lambda-hello-world"
 description "A simple demo application for D on AWS Lambda."
 authors "Johannes Loher"
 copyright "Copyright © 2019, Johannes Loher"

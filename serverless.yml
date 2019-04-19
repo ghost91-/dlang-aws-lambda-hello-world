@@ -1,0 +1,19 @@
+
+service: dlang-hello-world
+
+provider:
+  name: aws
+  runtime: provided
+  region: eu-central-1
+
+package:
+  artifact: ./bootstrap.zip
+
+functions:
+  hello:
+    handler: hello
+    events:
+      - http:
+          memorySize: 128
+          path: hello
+          method: get

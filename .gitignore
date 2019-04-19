@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/bootstrap
+bootstrap.zip
+bootstrap.so
+bootstrap.dylib
+bootstrap.dll
+bootstrap.a
+bootstrap.lib
+bootstrap-test-*
+*.exe
+*.o
+*.obj
+*.lst
+.serverless

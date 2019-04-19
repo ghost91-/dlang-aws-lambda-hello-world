@@ -1,0 +1,10 @@
+name "dlang-hello-world"
+description "A simple demo application for D on AWS Lambda."
+authors "Johannes Loher"
+copyright "Copyright © 2019, Johannes Loher"
+license "MIT"
+targetName "bootstrap"
+postBuildCommands "strip bootstrap" "zip bootstrap.zip bootstrap"
+
+dependency "requests" version="~>1.0.6"
+dflags "-static" platform="ldc"
